@@ -10,9 +10,7 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        <nav style={{marginBottom: 20}}>
-          <Link to="/">Run Survey</Link> | <Link to="/admin">Add Questions</Link> | <Link to="/admin-responses">View Responses</Link>
-        </nav>
+
         <Routes>
           <Route path="/" element={<SurveyRunner />} />
           <Route path="/admin" element={<Survey />} />
