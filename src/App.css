@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app-container {
+  font-family: 'Segoe UI', 'Heebo', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  padding: 32px 16px 16px 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #f7fafd url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" xmlns="http://www.w3.org/2000/svg"><text x="50%25" y="50%25" text-anchor="middle" fill="%23e3eafc" font-size="60" font-family="Heebo, Arial, sans-serif" opacity="0.08">✡</text></svg>') no-repeat center 120px;
   min-height: 100vh;
+}
+
+.header-bar {
+  width: 100vw;
+  margin-left: calc(-1 * (100vw - 100%)/2);
+  background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+  color: white;
+  padding: 28px 0 20px 0;
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: 'Heebo', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 12px rgba(30, 60, 114, 0.13);
+  position: relative;
+  z-index: 2;
+}
+
+.survey-table-container {
+  background: #ffffffcc;
+  padding: 32px 24px;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(30, 60, 114, 0.10);
+  margin-top: 32px;
+}
+
+.add-question {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid #b3c7e6;
+  border-radius: 7px;
+  font-size: 1rem;
+  background: #f7fafd;
+  transition: border 0.2s;
+}
+
+.survey-table {
+  table-layout: fixed;
+}
+
+.survey-table th.answer-col,
+.survey-table td.answer-col {
+  width: 12%;
+  min-width: 90px;
+  max-width: 140px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.survey-table td {
+  padding: 14px 10px;
+  font-size: 1rem;
+  border-bottom: 1px solid #e3eafc;
+  transition: border 0.15s, box-shadow 0.15s, font-weight 0.15s;
+}
+
+.survey-table tbody tr:nth-child(even) {
+  background: #f0f6fb;
+}
+
+.survey-table tr[style*="background: #ffeaea"] {
+  background: #ffeaea !important;
+  border: 2px solid #e53935 !important;
+}
+
+.survey-table td[aria-pressed="true"] {
+  border: 3px solid #0057b7 !important;
+  box-shadow: 0 0 10px #b3c7e6;
+  font-weight: bold;
+  background: #e3f0ff !important;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.survey-table td[aria-pressed="true"] span {
+  display: inline-block;
+  font-size: 2.5rem;
+  color: #e53935;
+  font-weight: bold;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border: 1.5px solid #0057b7;
+  outline: none;
+}
+
+button {
+  background: linear-gradient(90deg, #1e90ff 0%, #0057b7 100%);
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(30, 60, 114, 0.08);
+}
+
+button:hover {
+  background: linear-gradient(90deg, #0057b7 0%, #1e90ff 100%);
+  box-shadow: 0 4px 16px rgba(30, 60, 114, 0.13);
+}
+
+.section {
+  margin-bottom: 38px;
+}
+
+.subsection {
+  margin-bottom: 24px;
+  padding-left: 28px;
+  border-left: 3px solid #0057b7;
+}
+
+.question {
+  margin-bottom: 15px;
+  padding: 18px 24px;
+  border-radius: 10px;
+  border-left: 5px solid #1e90ff;
+  background: #e3eafc;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.answers {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+
+.answer {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.answer input[type="radio"] {
+  margin: 0;
 }
