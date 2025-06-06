@@ -12,7 +12,7 @@ const SurveyRunner = () => {
 
   const fetchSurvey = async () => {
     try {
-      const response = await fetch('http://localhost:5050/api/survey');
+      const response = await fetch('/surveyData.json');
       const data = await response.json();
       setSurvey(data);
     } catch (error) {

@@ -195,7 +195,43 @@
     {
       "id": 5,
       "title": "Religion",
-      "subsections": []
-    }
+      "subsections": [{
+        "id": 7,
+        "title": "Military service and yeshica student",
+        "questions": [
+          {
+            "id": 35,
+            "text": "Grant military service exemption to Yeshiva student"
+          },
+          {
+            "id": 36,
+            "text": "Impose a civil or military service to all Jews"
+          },
+          {
+            "id": 37,
+            "text": "Impose a military service to all Jews"
+          }
+        ]
+      }
+      ,
+      {
+        "id": 9,
+        "title": "Civil life",
+        "questions": [
+          {
+            "id": 38,
+            "text": "Allow civil wedding regardless of religion"
+          },
+          {
+            "id": 39,
+            "text": "Extend scope of religious tribunal (Bet Din)"
+          },
+          {
+            "id": 40,
+            "text": "Accept conversion by non orthodox rabbi"
+          }
+        ]
+      }
+    ]}
   ]
 }
