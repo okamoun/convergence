@@ -58,7 +58,38 @@
 
 .survey-table {
   table-layout: fixed;
+  min-width: 650px;
 }
+
+.question-list {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+@media (max-width: 600px) {
+  .survey-table th, .survey-table td {
+    font-size: 0.98rem;
+    padding: 10px 4px;
+  }
+  .survey-table th.answer-col, .survey-table td.answer-col {
+    min-width: 80px;
+    max-width: 110px;
+    font-size: 0.95rem;
+  }
+  .survey-table th {
+    font-size: 1rem;
+  }
+  .survey-table td {
+    font-size: 0.97rem;
+  }
+  .question-list {
+    max-height: 60vh;
+  }
+}
+
 
 .survey-table th.answer-col,
 .survey-table td.answer-col {
