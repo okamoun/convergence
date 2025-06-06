@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import QuestionList from './QuestionList';
+import QuestionListMobile from './QuestionListMobile';
 
 const SurveyRunner = () => {
   const [survey, setSurvey] = useState({ sections: [] });
@@ -68,11 +69,17 @@ const SurveyRunner = () => {
     }
   };
 
+  // Detect mobile device (screen width <= 600px)
+  const isMobile = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(max-width: 600px)').matches;
+
   return (
     <div className="survey-runner-container">
-     
       <form onSubmit={handleSubmit}>
-        <QuestionList survey={survey} onResponse={handleResponse} responses={responses} missing={showMissing ? unansweredIds : []} />
+        {isMobile ? (
+          <QuestionListMobile survey={survey} onResponse={handleResponse} responses={responses} missing={showMissing ? unansweredIds : []} />
+        ) : (
+          <QuestionList survey={survey} onResponse={handleResponse} responses={responses} missing={showMissing ? unansweredIds : []} />
+        )}
         <button type="submit">Submit Responses</button>
       </form>
       {showMissing && unansweredIds.length > 0 && (
