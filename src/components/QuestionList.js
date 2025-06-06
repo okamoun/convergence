@@ -36,7 +36,7 @@ const lightenColor = (color, amount = 6) => {
       <table className="survey-table" style={{ width: '100%', borderCollapse: 'collapse' }}>
         <thead>
           <tr>
-            <th style={{textAlign:'left'}}>Question</th>
+            <th style={{textAlign:'left',fontSize:'1.2rem',color:'#fff'}}>Survey questions</th>
             {answerChoices.map((choice, idx) => (
               <th key={idx} className="answer-col" style={{textAlign:'center', background: colorScale[idx], whiteSpace: 'normal', wordBreak: 'break-word', overflowWrap: 'break-word', verticalAlign: 'middle'}}>{choice}</th>
             ))}

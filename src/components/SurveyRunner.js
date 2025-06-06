@@ -70,7 +70,7 @@ const SurveyRunner = () => {
 
   return (
     <div className="survey-runner-container">
-      <h1>Survey</h1>
+     
       <form onSubmit={handleSubmit}>
         <QuestionList survey={survey} onResponse={handleResponse} responses={responses} missing={showMissing ? unansweredIds : []} />
         <button type="submit">Submit Responses</button>
