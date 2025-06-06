@@ -9,16 +9,20 @@
           "title": "Right to vote",
           "questions": [
             {
-              "id": 1,
+              "id": 11,
               "text": "Every citizen has the right to vote in all elections"
             },
             {
-              "id": 2,
+              "id": 12,
               "text": "Some votes may be limited by group"
             },
             {
-              "id": 3,
+              "id": 13,
               "text": "Voting limited to people agreeing to national service, civil or military"
+            },
+            {
+              "id": 14,
+              "text": "Only jews should vote for national election"
             }
           ]
         },
@@ -27,15 +31,15 @@
           "title": "Constitution",
           "questions": [
             {
-              "id": 4,
+              "id": 21,
               "text": "Write a constitution within a given time frame (2 years)"
             },
             {
-              "id": 5,
+              "id": 22,
               "text": "Build a basic law that would progressively become a constitution"
             },
             {
-              "id": 6,
+              "id": 23,
               "text": "Israel should not have a constitution"
             }
           ]
@@ -45,31 +49,31 @@
           "title": "National Election system",
           "questions": [
             {
-              "id": 7,
+              "id": 31,
               "text": "Increase the threshold to 5%"
             },
             {
-              "id": 8,
+              "id": 32,
               "text": "Reduce the threshold to 1%"
             },
             {
-              "id": 9,
+              "id": 33,
               "text": "Keep elections with a national list"
             },
             {
-              "id": 10,
+              "id": 34,
               "text": "Have 12 electoral districts"
             },
             {
-              "id": 11,
+              "id": 35,
               "text": "Have 120 electoral districts (1 per MP)"
             },
             {
-              "id": 12,
+              "id": 36,
               "text": "Limit the Prime Minister to 10 years in office"
             },
             {
-              "id": 13,
+              "id": 37,
               "text": "Create a second chamber"
             }
           ]
