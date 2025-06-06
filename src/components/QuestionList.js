@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 
 // Generates n colors from red to blue using HSL interpolation
-const getColorScale = (n) => {
+export const getColorScale = (n) => {
   const colors = [];
   for (let i = 0; i < n; i++) {
-    const h = 0 + (220 - 0) * (i / (n - 1)); // 0=red, 220=blue
-    colors.push(`hsl(${h}, 80%, 85%)`);
+    const h = 360 + (220 - 360) * (i / (n - 1)); // 0=red, 220=blue
+    colors.push(`hsl(${h}, 100%, 50%)`);
   }
   return colors;
 };
