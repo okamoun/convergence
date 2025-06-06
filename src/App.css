@@ -67,7 +67,22 @@
   max-width: 140px;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  vertical-align: middle;
+}
+
+.survey-table th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+}
+
+.question-list {
+  max-height: 70vh;
+  overflow-y: auto;
 }
 
 .survey-table td {
@@ -81,16 +96,14 @@
   background: #f0f6fb;
 }
 
-.survey-table tr[style*="background: #ffeaea"] {
-  background: #ffeaea !important;
-  border: 2px solid #e53935 !important;
+.survey-table tr[style*="background: #e3eafd"] {
+  background: #e3eafd !important;
+  border: 2px solid #1a237e !important;
 }
 
 .survey-table td[aria-pressed="true"] {
   border: 3px solid #0057b7 !important;
   box-shadow: 0 0 10px #b3c7e6;
-  font-weight: bold;
-  background: #e3f0ff !important;
   text-align: center;
   vertical-align: middle;
 }

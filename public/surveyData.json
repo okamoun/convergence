@@ -1,0 +1,201 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "title": "Democracy",
+      "subsections": [
+        {
+          "id": 1,
+          "title": "Right to vote",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Every citizen has right to vote to all elections"
+            },
+            {
+              "id": 2,
+              "text": "Some vote may be limited by group"
+            },
+            {
+              "id": 3,
+              "text": "Vote limited to people agreeing to a nation service civil or military"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Constitution",
+          "questions": [
+            {
+              "id": 4,
+              "text": "Write a constitution within a given time frame (2 years)"
+            },
+            {
+              "id": 5,
+              "text": "Build base law that would become progressively a constitution"
+            },
+            {
+              "id": 6,
+              "text": "Israel should not have a constitution"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "National Election system",
+          "questions": [
+            {
+              "id": 7,
+              "text": "Increase the threshold to 5%"
+            },
+            {
+              "id": 8,
+              "text": "Reduce the threshold to 1%"
+            },
+            {
+              "id": 9,
+              "text": "Keep election with national list"
+            },
+            {
+              "id": 10,
+              "text": "Have 12 electoral district"
+            },
+            {
+              "id": 11,
+              "text": "Have 120 electoral district (1 per MP)"
+            },
+            {
+              "id": 12,
+              "text": "Limit Prime minister to 10 years of mandat"
+            },
+            {
+              "id": 13,
+              "text": "Create a second chamber"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Borders",
+      "subsections": [
+        {
+          "id": 4,
+          "title": "West Bank",
+          "questions": [
+            {
+              "id": 14,
+              "text": "Annexation of all West Bank granting citizenship to all inhabitant"
+            },
+            {
+              "id": 15,
+              "text": "Annexation of all West Bank without granting citizenship to all inhabitants"
+            },
+            {
+              "id": 16,
+              "text": "Annexation of all of the West Bank without granting citizenship to all inhabitants and removing the Palestinian population"
+            },
+            {
+              "id": 17,
+              "text": "Annexation of all West Bank zone C granting citizenship to all inhabitant"
+            },
+            {
+              "id": 18,
+              "text": "Annexation of all West Bank without zon C granting citizenship to all inhabitants"
+            },
+            {
+              "id": 19,
+              "text": "Annexation of all West Bank zone B granting citizenship to all inhabitant"
+            },
+            {
+              "id": 20,
+              "text": "Annexation of all West Bank without zon B granting citizenship to all inhabitants"
+            },
+            {
+              "id": 21,
+              "text": "Annexation of major settlements and territory swap as previous peace proposal"
+            },
+            {
+              "id": 22,
+              "text": "Keep zones A and B under security responsibility of Israel but civil palestinian administration"
+            },
+            {
+              "id": 23,
+              "text": "Propose demilitarizing Palestinian state today"
+            },
+            {
+              "id": 24,
+              "text": "Prepare a path to demilitarize Palestinian state in 10 years"
+            },
+            {
+              "id": 25,
+              "text": "Propose full Palestinian state today"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Non Jewish population",
+      "subsections": [
+        {
+          "id": 5,
+          "title": "Non Jewish population",
+          "questions": [
+            {
+              "id": 26,
+              "text": "Impose a civil or military service to all citizens"
+            },
+            {
+              "id": 27,
+              "text": "Impose a military service all citizens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Education",
+      "subsections": [
+        {
+          "id": 6,
+          "title": "cross education system",
+          "questions": [
+            {
+              "id": 28,
+              "text": "50% of the non scientific curriculum should be common to all education systems"
+            },
+            {
+              "id": 29,
+              "text": "30% of the non scientific curriculum should be common to all education systems"
+            },
+            {
+              "id": 30,
+              "text": "Share education day once a month between student from different eduction systems"
+            },
+            {
+              "id": 31,
+              "text": "Share training program for professor among multiple education systems"
+            },
+            {
+              "id": 32,
+              "text": "Restrict state sponsoring to schools that comply with the shared education initiative"
+            },
+            {
+              "id": 33,
+              "text": "Give full freedom to school on their curriculum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Religion",
+      "subsections": []
+    }
+  ]
+}
